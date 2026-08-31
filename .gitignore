@@ -1,0 +1,18 @@
+# Backend
+
+
+.env
+.idea/
+YORUMLARIM
+
+backend/venv/
+backend/.env
+backend/__pycache__/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.env*.local
+
+# Genel
+.DS_Store
