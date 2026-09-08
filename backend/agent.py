@@ -109,7 +109,7 @@ ARAC_TANIMLARI = [
 ]
 
 
-def agent_calistir(kullanici_mesaji: str, db: Session, student_id: int, gecmis: list = None) -> str:
+def agent_calistir(kullanici_mesaji: str, db: Session, student_id: int, gecmis: list = None, eval_modu: bool = False):
     mesajlar = [
         {
             "role": "system",
@@ -160,9 +160,14 @@ def agent_calistir(kullanici_mesaji: str, db: Session, student_id: int, gecmis: 
 
     cevap_mesaji = ilk_cevap.choices[0].message
 
+    # Hangi tool'lar seçildi (eval için)
+    secilen_toollar = []
+    if cevap_mesaji.tool_calls:
+        secilen_toollar = [tc.function.name for tc in cevap_mesaji.tool_calls]
 
     if not cevap_mesaji.tool_calls:
-
+        if eval_modu:
+            return {"cevap": cevap_mesaji.content, "secilen_toollar": []}
         return cevap_mesaji.content
 
     mesajlar.append({
@@ -219,5 +224,9 @@ def agent_calistir(kullanici_mesaji: str, db: Session, student_id: int, gecmis: 
         messages=mesajlar,
     )
 
+    if eval_modu:
+        return {
+            "cevap": ikinci_cevap.choices[0].message.content,
+            "secilen_toollar": secilen_toollar,
+        }
     return ikinci_cevap.choices[0].message.content
-

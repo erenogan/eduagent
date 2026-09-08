@@ -84,8 +84,9 @@ class Appointment(Base):
     coach = relationship("Coach", back_populates="appointments")
 
 class KnowledgeChunk(Base):
-        __tablename__ = "knowledge_chunks"
+    __tablename__ = "knowledge_chunks"
 
-        id = Column(Integer, primary_key=True, index=True)
-        icerik = Column(String, nullable=False)  # metin parçası
-        embedding = Column(Vector(768))  # metnin vektörü
+    id = Column(Integer, primary_key=True, index=True)
+    doc_id = Column(String, nullable=False)          # anlamlı etiket, örn "devamsizlik"
+    icerik = Column(String, nullable=False)
+    embedding = Column(Vector(768))

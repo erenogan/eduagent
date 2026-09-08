@@ -1,0 +1,23 @@
+{"id": "r001", "soru": "devamsızlık hakkım kaç gün", "beklenen_doc_id": "devamsizlik"}
+{"id": "r002", "soru": "kaç gün okula gelmezsem sınıfta kalırım", "beklenen_doc_id": "devamsizlik"}
+{"id": "r003", "soru": "okula gelmeme sınırı nedir", "beklenen_doc_id": "devamsizlik"}
+{"id": "r004", "soru": "koçumla ne zaman görüşebilirim", "beklenen_doc_id": "randevu"}
+{"id": "r005", "soru": "randevu saatleri neler", "beklenen_doc_id": "randevu"}
+{"id": "r006", "soru": "görüşmemi nasıl iptal ederim", "beklenen_doc_id": "randevu"}
+{"id": "r007", "soru": "kopya çekersem ne olur", "beklenen_doc_id": "sinav_kurallari"}
+{"id": "r008", "soru": "denemeler ne sıklıkla yapılıyor", "beklenen_doc_id": "sinav_kurallari"}
+{"id": "r009", "soru": "sınav sonuçları ne zaman açıklanır", "beklenen_doc_id": "sinav_kurallari"}
+{"id": "r010", "soru": "koç ne işe yarıyor", "beklenen_doc_id": "kocluk"}
+{"id": "r011", "soru": "danışmanım bana nasıl yardımcı olur", "beklenen_doc_id": "kocluk"}
+{"id": "r012", "soru": "her öğrencinin koçu var mı", "beklenen_doc_id": "kocluk"}
+{"id": "r013", "soru": "dersimi değiştirebilir miyim", "beklenen_doc_id": "ders_degisikligi"}
+{"id": "r014", "soru": "program değişikliği ne zamana kadar yapılabilir", "beklenen_doc_id": "ders_degisikligi"}
+{"id": "r015", "soru": "seçtiğim dersi bırakmak istiyorum", "beklenen_doc_id": "ders_degisikligi"}
+{"id": "r016", "soru": "yıllık en fazla kaç gün rapor alabilirim", "beklenen_doc_id": "devamsizlik"}
+{"id": "r017", "soru": "koçla görüşme kaç saat önce iptal edilmeli", "beklenen_doc_id": "randevu"}
+{"id": "r018", "soru": "sınavda kurallar neler", "beklenen_doc_id": "sinav_kurallari"}
+{"id": "r019", "soru": "kantin menüsü ne", "beklenen_doc_id": null}
+{"id": "r020", "soru": "okul servisi saat kaçta kalkıyor", "beklenen_doc_id": null}
+{"id": "r021", "soru": "yurt ücreti ne kadar", "beklenen_doc_id": null}
+{"id": "r022", "soru": "bugün hava nasıl olacak", "beklenen_doc_id": null}
+{"id": "r023", "soru": "matematik türev konusunu anlat", "beklenen_doc_id": null}

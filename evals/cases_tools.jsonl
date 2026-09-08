@@ -1,0 +1,40 @@
+{"id": "t011", "soru": "fizik netim neden düşüyor", "beklenen_tool": "get_exam_results"}
+{"id": "t012", "soru": "TYT denemelerinde ne durumdayım", "beklenen_tool": "get_exam_results"}
+{"id": "t013", "soru": "en son sınavda kaç net yaptım", "beklenen_tool": "get_exam_results"}
+{"id": "t014", "soru": "hangi dersten daha çok çalışmalıyım", "beklenen_tool": "get_exam_results"}
+{"id": "t015", "soru": "matematikte ilerleme var mı", "beklenen_tool": "get_exam_results"}
+{"id": "t016", "soru": "yarın hangi derslerim var", "beklenen_tool": "get_student_schedule"}
+{"id": "t017", "soru": "hoca yarın ne anlatacak", "beklenen_tool": "get_student_schedule"}
+{"id": "t018", "soru": "salı günü dersim var mı", "beklenen_tool": "get_student_schedule"}
+{"id": "t019", "soru": "bu hafta programım nasıl", "beklenen_tool": "get_student_schedule"}
+{"id": "t020", "soru": "kaçta matematik dersim var", "beklenen_tool": "get_student_schedule"}
+{"id": "t021", "soru": "danışmanım kim benim", "beklenen_tool": "get_coach"}
+{"id": "t022", "soru": "hangi öğretmene bağlıyım", "beklenen_tool": "get_coach"}
+{"id": "t023", "soru": "koçumun adı neydi", "beklenen_tool": "get_coach"}
+{"id": "t024", "soru": "koçumla ne zaman görüşebilirim, 5 Eylül 2026 boş mu", "beklenen_tool": "get_coach_availability"}
+{"id": "t025", "soru": "10 Eylül 2026 için koçun uygun saatleri neler", "beklenen_tool": "get_coach_availability"}
+{"id": "t026", "soru": "2026-09-08 tarihinde hangi saatler müsait", "beklenen_tool": "get_coach_availability"}
+{"id": "t027", "soru": "koçumla 12 Eylül 2026 saat 15:00 randevu oluştur", "beklenen_tool": "create_appointment"}
+{"id": "t028", "soru": "15 Eylül 2026 saat 11:00 için görüşme ayarla", "beklenen_tool": "create_appointment"}
+{"id": "t029", "soru": "devamsızlık hakkım kaç gün", "beklenen_tool": "search_knowledge_base"}
+{"id": "t030", "soru": "kaç gün okula gelmezsem kalırım", "beklenen_tool": "search_knowledge_base"}
+{"id": "t031", "soru": "randevu kurallarınız neler", "beklenen_tool": "search_knowledge_base"}
+{"id": "t032", "soru": "ders değiştirebilir miyim", "beklenen_tool": "search_knowledge_base"}
+{"id": "t033", "soru": "koçluk sistemi nasıl işliyor", "beklenen_tool": "search_knowledge_base"}
+{"id": "t034", "soru": "sınav sonuçları ne zaman açıklanıyor", "beklenen_tool": "search_knowledge_base"}
+{"id": "t035", "soru": "İYİ GÜNLER", "beklenen_tool": null}
+{"id": "t036", "soru": "sağ ol kardeşim", "beklenen_tool": null}
+{"id": "t037", "soru": "naber nasılsın", "beklenen_tool": null}
+{"id": "t038", "soru": "bugün canım sıkkın", "beklenen_tool": null}
+{"id": "t039", "soru": "kantin kaçta açılıyor", "beklenen_tool": null}
+{"id": "t040", "soru": "okulun telefon numarası ne", "beklenen_tool": null}
+{"id": "t041", "soru": "sınav kağıdımı görebilir miyim", "beklenen_tool": null}
+{"id": "t042", "soru": "bana bir fıkra anlat", "beklenen_tool": null}
+{"id": "t043", "soru": "sınavda kopya çekersem ne olur, hem de benim sınav notlarım ne", "beklenen_tool": "get_exam_results"}
+{"id": "t044", "soru": "koçum kim ve devamsızlık kaç gün", "beklenen_tool": "get_coach"}
+{"id": "t045", "soru": "netlerim", "beklenen_tool": "get_exam_results"}
+{"id": "t046", "soru": "program", "beklenen_tool": "get_student_schedule"}
+{"id": "t047", "soru": "AYT mi TYT mi daha iyiyim", "beklenen_tool": "get_exam_results"}
+{"id": "t048", "soru": "dersimi bırakmak istiyorum ne yapmalıyım", "beklenen_tool": "search_knowledge_base"}
+{"id": "t049", "soru": "koçumla görüşmek istiyorum", "beklenen_tool": "get_coach_availability"}
+{"id": "t050", "soru": "hangi konularda zayıfım", "beklenen_tool": "get_exam_results"}

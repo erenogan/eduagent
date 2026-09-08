@@ -122,7 +122,6 @@ def get_coach_availability(db: Session, student_id: int, tarih: str):
 
 def create_appointment(db: Session, student_id: int, tarih: str, saat: str):
     """..."""
-    print(f">>> create_appointment ÇAĞRILDI: tarih={tarih}, saat={saat}, student={student_id}")
     # ... geri kalan kod
     """
     Öğrencinin koçuyla randevu oluşturur.

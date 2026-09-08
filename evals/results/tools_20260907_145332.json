@@ -1,0 +1,90 @@
+{
+  "ozet": {
+    "toplam": 10,
+    "dogru": 10,
+    "dogruluk": 100.0,
+    "ort_sure_s": 1.4829
+  },
+  "sonuclar": [
+    {
+      "id": "t001",
+      "soru": "Son sınavlarım nasıl gidiyor?",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "get_exam_results",
+      "dogru": true,
+      "sure_ms": 2796
+    },
+    {
+      "id": "t002",
+      "soru": "Matematik netlerim yükseliyor mu?",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "get_exam_results",
+      "dogru": true,
+      "sure_ms": 1446
+    },
+    {
+      "id": "t003",
+      "soru": "Bu hafta hangi derslerim var?",
+      "beklenen": "get_student_schedule",
+      "gerceklesen": "get_student_schedule",
+      "dogru": true,
+      "sure_ms": 1518
+    },
+    {
+      "id": "t004",
+      "soru": "Ders programımı gösterir misin?",
+      "beklenen": "get_student_schedule",
+      "gerceklesen": "get_student_schedule",
+      "dogru": true,
+      "sure_ms": 2773
+    },
+    {
+      "id": "t005",
+      "soru": "Koçum kim?",
+      "beklenen": "get_coach",
+      "gerceklesen": "get_coach",
+      "dogru": true,
+      "sure_ms": 925
+    },
+    {
+      "id": "t006",
+      "soru": "Devamsızlık politikası nedir?",
+      "beklenen": "search_knowledge_base",
+      "gerceklesen": "search_knowledge_base",
+      "dogru": true,
+      "sure_ms": 2142
+    },
+    {
+      "id": "t007",
+      "soru": "Sınavda kopya çekmenin cezası ne?",
+      "beklenen": "search_knowledge_base",
+      "gerceklesen": "search_knowledge_base",
+      "dogru": true,
+      "sure_ms": 1581
+    },
+    {
+      "id": "t008",
+      "soru": "Merhaba",
+      "beklenen": null,
+      "gerceklesen": null,
+      "dogru": true,
+      "sure_ms": 423
+    },
+    {
+      "id": "t009",
+      "soru": "Teşekkür ederim, çok yardımcı oldun",
+      "beklenen": null,
+      "gerceklesen": null,
+      "dogru": true,
+      "sure_ms": 680
+    },
+    {
+      "id": "t010",
+      "soru": "Hava bugün nasıl?",
+      "beklenen": null,
+      "gerceklesen": null,
+      "dogru": true,
+      "sure_ms": 545
+    }
+  ]
+}

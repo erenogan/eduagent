@@ -1,0 +1,330 @@
+{
+  "ozet": {
+    "toplam": 40,
+    "dogru": 35,
+    "dogruluk": 87.5,
+    "ort_sure_s": 5.9395500000000006
+  },
+  "sonuclar": [
+    {
+      "id": "t011",
+      "soru": "fizik netim neden düşüyor",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "get_exam_results",
+      "dogru": true,
+      "sure_ms": 4911
+    },
+    {
+      "id": "t012",
+      "soru": "TYT denemelerinde ne durumdayım",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "get_exam_results",
+      "dogru": true,
+      "sure_ms": 1733
+    },
+    {
+      "id": "t013",
+      "soru": "en son sınavda kaç net yaptım",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "get_exam_results",
+      "dogru": true,
+      "sure_ms": 1791
+    },
+    {
+      "id": "t014",
+      "soru": "hangi dersten daha çok çalışmalıyım",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "get_exam_results",
+      "dogru": true,
+      "sure_ms": 1994
+    },
+    {
+      "id": "t015",
+      "soru": "matematikte ilerleme var mı",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "get_exam_results",
+      "dogru": true,
+      "sure_ms": 1410
+    },
+    {
+      "id": "t016",
+      "soru": "yarın hangi derslerim var",
+      "beklenen": "get_student_schedule",
+      "gerceklesen": "get_student_schedule",
+      "dogru": true,
+      "sure_ms": 1252
+    },
+    {
+      "id": "t017",
+      "soru": "hoca yarın ne anlatacak",
+      "beklenen": "get_student_schedule",
+      "gerceklesen": "get_student_schedule",
+      "dogru": true,
+      "sure_ms": 9417
+    },
+    {
+      "id": "t018",
+      "soru": "salı günü dersim var mı",
+      "beklenen": "get_student_schedule",
+      "gerceklesen": "get_student_schedule",
+      "dogru": true,
+      "sure_ms": 7208
+    },
+    {
+      "id": "t019",
+      "soru": "bu hafta programım nasıl",
+      "beklenen": "get_student_schedule",
+      "gerceklesen": "get_student_schedule",
+      "dogru": true,
+      "sure_ms": 5823
+    },
+    {
+      "id": "t020",
+      "soru": "kaçta matematik dersim var",
+      "beklenen": "get_student_schedule",
+      "gerceklesen": "get_student_schedule",
+      "dogru": true,
+      "sure_ms": 8255
+    },
+    {
+      "id": "t021",
+      "soru": "danışmanım kim benim",
+      "beklenen": "get_coach",
+      "gerceklesen": "get_coach",
+      "dogru": true,
+      "sure_ms": 5119
+    },
+    {
+      "id": "t022",
+      "soru": "hangi öğretmene bağlıyım",
+      "beklenen": "get_coach",
+      "gerceklesen": "get_coach",
+      "dogru": true,
+      "sure_ms": 2134
+    },
+    {
+      "id": "t023",
+      "soru": "koçumun adı neydi",
+      "beklenen": "get_coach",
+      "gerceklesen": "get_coach",
+      "dogru": true,
+      "sure_ms": 5167
+    },
+    {
+      "id": "t024",
+      "soru": "koçumla ne zaman görüşebilirim, 5 Eylül 2026 boş mu",
+      "beklenen": "get_coach_availability",
+      "gerceklesen": "get_coach_availability",
+      "dogru": true,
+      "sure_ms": 5921
+    },
+    {
+      "id": "t025",
+      "soru": "10 Eylül 2026 için koçun uygun saatleri neler",
+      "beklenen": "get_coach_availability",
+      "gerceklesen": "get_coach_availability",
+      "dogru": true,
+      "sure_ms": 6510
+    },
+    {
+      "id": "t026",
+      "soru": "2026-09-08 tarihinde hangi saatler müsait",
+      "beklenen": "get_coach_availability",
+      "gerceklesen": "get_coach_availability",
+      "dogru": true,
+      "sure_ms": 11279
+    },
+    {
+      "id": "t027",
+      "soru": "koçumla 12 Eylül 2026 saat 15:00 randevu oluştur",
+      "beklenen": "create_appointment",
+      "gerceklesen": "create_appointment",
+      "dogru": true,
+      "sure_ms": 6442
+    },
+    {
+      "id": "t028",
+      "soru": "15 Eylül 2026 saat 11:00 için görüşme ayarla",
+      "beklenen": "create_appointment",
+      "gerceklesen": "create_appointment",
+      "dogru": true,
+      "sure_ms": 9389
+    },
+    {
+      "id": "t029",
+      "soru": "devamsızlık hakkım kaç gün",
+      "beklenen": "search_knowledge_base",
+      "gerceklesen": "search_knowledge_base",
+      "dogru": true,
+      "sure_ms": 9123
+    },
+    {
+      "id": "t030",
+      "soru": "kaç gün okula gelmezsem kalırım",
+      "beklenen": "search_knowledge_base",
+      "gerceklesen": "search_knowledge_base",
+      "dogru": true,
+      "sure_ms": 2555
+    },
+    {
+      "id": "t031",
+      "soru": "randevu kurallarınız neler",
+      "beklenen": "search_knowledge_base",
+      "gerceklesen": "search_knowledge_base",
+      "dogru": true,
+      "sure_ms": 10880
+    },
+    {
+      "id": "t032",
+      "soru": "ders değiştirebilir miyim",
+      "beklenen": "search_knowledge_base",
+      "gerceklesen": "search_knowledge_base",
+      "dogru": true,
+      "sure_ms": 10934
+    },
+    {
+      "id": "t033",
+      "soru": "koçluk sistemi nasıl işliyor",
+      "beklenen": "search_knowledge_base",
+      "gerceklesen": "search_knowledge_base",
+      "dogru": true,
+      "sure_ms": 7361
+    },
+    {
+      "id": "t034",
+      "soru": "sınav sonuçları ne zaman açıklanıyor",
+      "beklenen": "search_knowledge_base",
+      "gerceklesen": "search_knowledge_base",
+      "dogru": true,
+      "sure_ms": 9654
+    },
+    {
+      "id": "t035",
+      "soru": "İYİ GÜNLER",
+      "beklenen": null,
+      "gerceklesen": null,
+      "dogru": true,
+      "sure_ms": 3580
+    },
+    {
+      "id": "t036",
+      "soru": "sağ ol kardeşim",
+      "beklenen": null,
+      "gerceklesen": null,
+      "dogru": true,
+      "sure_ms": 4846
+    },
+    {
+      "id": "t037",
+      "soru": "naber nasılsın",
+      "beklenen": null,
+      "gerceklesen": null,
+      "dogru": true,
+      "sure_ms": 336
+    },
+    {
+      "id": "t038",
+      "soru": "bugün canım sıkkın",
+      "beklenen": null,
+      "gerceklesen": null,
+      "dogru": true,
+      "sure_ms": 3579
+    },
+    {
+      "id": "t039",
+      "soru": "kantin kaçta açılıyor",
+      "beklenen": null,
+      "gerceklesen": "search_knowledge_base",
+      "dogru": false,
+      "sure_ms": 10466
+    },
+    {
+      "id": "t040",
+      "soru": "okulun telefon numarası ne",
+      "beklenen": null,
+      "gerceklesen": "search_knowledge_base",
+      "dogru": false,
+      "sure_ms": 5793
+    },
+    {
+      "id": "t041",
+      "soru": "sınav kağıdımı görebilir miyim",
+      "beklenen": null,
+      "gerceklesen": "search_knowledge_base",
+      "dogru": false,
+      "sure_ms": 5247
+    },
+    {
+      "id": "t042",
+      "soru": "bana bir fıkra anlat",
+      "beklenen": null,
+      "gerceklesen": null,
+      "dogru": true,
+      "sure_ms": 2808
+    },
+    {
+      "id": "t043",
+      "soru": "sınavda kopya çekersem ne olur, hem de benim sınav notlarım ne",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "search_knowledge_base",
+      "dogru": false,
+      "sure_ms": 1717
+    },
+    {
+      "id": "t044",
+      "soru": "koçum kim ve devamsızlık kaç gün",
+      "beklenen": "get_coach",
+      "gerceklesen": "get_coach",
+      "dogru": true,
+      "sure_ms": 10708
+    },
+    {
+      "id": "t045",
+      "soru": "netlerim",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "get_exam_results",
+      "dogru": true,
+      "sure_ms": 10732
+    },
+    {
+      "id": "t046",
+      "soru": "program",
+      "beklenen": "get_student_schedule",
+      "gerceklesen": "get_student_schedule",
+      "dogru": true,
+      "sure_ms": 8556
+    },
+    {
+      "id": "t047",
+      "soru": "AYT mi TYT mi daha iyiyim",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "get_exam_results",
+      "dogru": true,
+      "sure_ms": 5293
+    },
+    {
+      "id": "t048",
+      "soru": "dersimi bırakmak istiyorum ne yapmalıyım",
+      "beklenen": "search_knowledge_base",
+      "gerceklesen": "search_knowledge_base",
+      "dogru": true,
+      "sure_ms": 4987
+    },
+    {
+      "id": "t049",
+      "soru": "koçumla görüşmek istiyorum",
+      "beklenen": "get_coach_availability",
+      "gerceklesen": null,
+      "dogru": false,
+      "sure_ms": 4690
+    },
+    {
+      "id": "t050",
+      "soru": "hangi konularda zayıfım",
+      "beklenen": "get_exam_results",
+      "gerceklesen": "get_exam_results",
+      "dogru": true,
+      "sure_ms": 7982
+    }
+  ]
+}
